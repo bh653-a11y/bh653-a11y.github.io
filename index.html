@@ -1,0 +1,762 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bar Herz | MBA Candidate at Cornell, Strategy, Operations &amp; Technology</title>
+<meta name="description" content="Bar Herz is an MBA candidate at Cornell's SC Johnson College of Business and a former Head of Business Operations at an AI infrastructure marketplace, with a background in tech operations, team leadership, an NGO, and the Israeli military.">
+<meta name="author" content="Bar Herz">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#F4F6F8">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Bar Herz | MBA Candidate at Cornell, Strategy, Operations &amp; Technology">
+<meta property="og:description" content="Operator and people leader who turns ambiguous problems into structure and gets teams moving. Cornell Johnson MBA '28.">
+<!-- Once the site is live, change this to the full URL, e.g. https://YOUR-USERNAME.github.io/profile.jpeg -->
+<meta property="og:image" content="profile.jpeg">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23003049'/%3E%3Cg fill='%23669BBC'%3E%3Ccircle cx='9' cy='9' r='2.3'/%3E%3Ccircle cx='16' cy='9' r='2.3'/%3E%3Ccircle cx='23' cy='9' r='2.3'/%3E%3Ccircle cx='9' cy='16' r='2.3'/%3E%3Ccircle cx='16' cy='16' r='2.3'/%3E%3Ccircle cx='23' cy='16' r='2.3'/%3E%3Ccircle cx='9' cy='23' r='2.3'/%3E%3Ccircle cx='16' cy='23' r='2.3'/%3E%3C/g%3E%3Ccircle cx='23' cy='23' r='3.2' fill='%23C1121F'/%3E%3C/svg%3E">
+
+<script>document.documentElement.classList.add('js');</script>
+
+<style>
+:root{
+  --paper:#F4F6F8;
+  --surface:#FFFFFF;
+  --ink:#003049;
+  --text:#22394A;
+  --muted:#52687A;
+  --red:#C1121F;
+  --red-deep:#780000;
+  --sky:#669BBC;
+  --cream:#FDF0D5;
+  --line:rgba(0,48,73,.13);
+  --line-strong:rgba(0,48,73,.26);
+
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua","URW Palladio L",P052,Georgia,serif;
+  --sans:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",Arial,sans-serif;
+
+  --wrap:1120px;
+  --gutter:clamp(1.25rem,5vw,2.5rem);
+  --nav-h:64px;
+  --ease:cubic-bezier(.2,.7,.2,1);
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+body{
+  margin:0;background:var(--paper);color:var(--text);
+  font-family:var(--sans);font-size:1.0625rem;line-height:1.65;
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+}
+img{display:block;max-width:100%}
+h1,h2,h3{margin:0;color:var(--ink);line-height:1.15;font-weight:600}
+p{margin:0}
+ul,ol{margin:0;padding:0}
+a{color:inherit}
+strong{color:var(--ink);font-weight:650}
+[hidden]{display:none!important}
+:focus-visible{outline:3px solid var(--red);outline-offset:3px;border-radius:4px}
+main:focus{outline:none}
+
+.nowrap{white-space:nowrap}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.skip{
+  position:absolute;left:1rem;top:-4rem;z-index:100;
+  background:var(--ink);color:#fff;padding:.75rem 1rem;border-radius:8px;text-decoration:none;font-weight:600;
+}
+.skip:focus{top:1rem}
+.wrap{max-width:var(--wrap);margin-inline:auto;padding-inline:var(--gutter)}
+
+mark{
+  color:inherit;padding:0 .08em;
+  background:linear-gradient(transparent 58%,rgba(102,155,188,.38) 58%);
+  -webkit-box-decoration-break:clone;box-decoration-break:clone;
+}
+
+/* ---------- Header / nav ---------- */
+.site-header{
+  position:sticky;top:0;z-index:50;
+  background:rgba(244,246,248,.88);
+  -webkit-backdrop-filter:saturate(1.4) blur(10px);backdrop-filter:saturate(1.4) blur(10px);
+  border-bottom:1px solid transparent;
+  transition:border-color .25s ease,background-color .25s ease;
+}
+.site-header.is-scrolled{border-bottom-color:var(--line);background:rgba(244,246,248,.96)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;height:var(--nav-h)}
+.brand{
+  display:inline-flex;align-items:center;gap:.6rem;min-height:44px;
+  font-family:var(--serif);font-size:1.2rem;font-weight:600;color:var(--ink);text-decoration:none;
+}
+.brand-dot{width:.55rem;height:.55rem;border-radius:50%;background:var(--red);flex:none}
+.nav-links{display:flex;align-items:center;gap:.15rem;list-style:none}
+.nav-links a{
+  position:relative;display:inline-flex;align-items:center;min-height:44px;padding:0 .75rem;
+  color:var(--muted);text-decoration:none;font-size:.95rem;border-radius:8px;
+  transition:color .2s ease;
+}
+.nav-links a:hover{color:var(--ink)}
+.nav-links a[aria-current]{color:var(--ink)}
+.nav-links a[aria-current]::after{
+  content:"";position:absolute;left:50%;bottom:5px;width:5px;height:5px;margin-left:-2.5px;
+  border-radius:50%;background:var(--red);
+}
+.menu-btn{display:none}
+
+@media (max-width:860px){
+  .nav-links{overflow-x:auto}
+  .js .menu-btn{
+    display:inline-flex;align-items:center;gap:.55rem;min-height:44px;padding:0 1rem;
+    background:transparent;color:var(--ink);font:inherit;font-size:.95rem;font-weight:600;
+    border:1.5px solid var(--line-strong);border-radius:999px;cursor:pointer;
+  }
+  .menu-icon{display:inline-grid;gap:4px;width:16px}
+  .menu-icon span{display:block;height:1.5px;background:currentColor;border-radius:2px;transition:transform .2s ease,opacity .2s ease}
+  .menu-btn[aria-expanded="true"] .menu-icon span:first-child{transform:translateY(2.75px) rotate(45deg)}
+  .menu-btn[aria-expanded="true"] .menu-icon span:last-child{transform:translateY(-2.75px) rotate(-45deg)}
+  .js .nav-links{
+    position:absolute;top:var(--nav-h);left:0;right:0;overflow:visible;
+    flex-direction:column;align-items:stretch;gap:0;
+    padding:.5rem var(--gutter) 1.25rem;background:var(--paper);
+    border-bottom:1px solid var(--line);box-shadow:0 18px 30px -24px rgba(0,48,73,.45);
+  }
+  .js .nav-links:not(.is-open){display:none}
+  .js .nav-links a{min-height:50px;width:100%;padding:0 .25rem;font-size:1.05rem;color:var(--ink);border-bottom:1px solid var(--line);border-radius:0}
+  .js .nav-links li:last-child a{border-bottom:0}
+  .js .nav-links a[aria-current]::after{left:auto;right:.5rem;top:50%;bottom:auto;margin:-2.5px 0 0}
+}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;overflow:hidden;overflow:clip;padding-block:clamp(2.5rem,8vw,6.5rem) clamp(3.5rem,9vw,7rem)}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,.9fr);align-items:center;gap:clamp(2rem,6vw,5rem)}
+.hero h1{
+  font-family:var(--serif);font-weight:600;
+  font-size:clamp(3rem,8.5vw,5.75rem);line-height:.98;letter-spacing:-.02em;
+}
+.hero-role{margin-top:1.1rem;font-size:clamp(1.1rem,2.2vw,1.3rem);line-height:1.4;color:var(--ink);font-weight:600}
+.hero-focus{display:block;font-weight:400;color:var(--muted)}
+.hero-lede{margin-top:1.4rem;max-width:36ch;font-size:clamp(1.12rem,2vw,1.25rem);line-height:1.55;color:var(--text)}
+.actions{display:flex;flex-wrap:wrap;align-items:center;gap:.75rem;margin-top:2rem}
+
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:.4rem;
+  min-height:48px;padding:.7rem 1.4rem;border-radius:999px;border:1.5px solid transparent;
+  font:inherit;font-size:1rem;font-weight:600;line-height:1.2;text-decoration:none;text-align:center;cursor:pointer;
+  transition:background-color .2s ease,color .2s ease,border-color .2s ease;
+}
+.btn-primary{background:var(--ink);color:#fff}
+.btn-primary:hover{background:var(--red)}
+.btn-secondary{border-color:var(--ink);color:var(--ink);background:transparent}
+.btn-secondary:hover{background:var(--ink);color:#fff}
+.btn-plain{color:var(--ink);padding-inline:.8rem;text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:.3em;text-decoration-color:var(--sky)}
+.btn-plain:hover{color:var(--red);text-decoration-color:var(--red)}
+
+.hero-visual{position:relative;justify-self:end;width:100%;max-width:350px;margin-top:2rem}
+.portrait{
+  position:relative;z-index:1;margin:0;aspect-ratio:4/5;overflow:hidden;
+  border-radius:14px 110px 14px 14px;background:#DCE5EC;
+  box-shadow:0 30px 60px -40px rgba(0,48,73,.55);
+}
+.portrait img{position:relative;z-index:1;width:100%;height:100%;object-fit:cover;object-position:50% 28%}
+.portrait-fallback{
+  position:absolute;inset:0;display:grid;place-items:center;
+  font-family:var(--serif);font-size:clamp(3rem,10vw,4.5rem);font-weight:600;color:var(--ink);letter-spacing:.02em;
+  background:linear-gradient(160deg,#E4ECF2 0%,#C9D9E5 100%);
+}
+
+/* The one bold moment: scattered points settle into a grid. Ambiguity into structure. */
+.dot-field{
+  position:absolute;z-index:0;left:-104px;bottom:-66px;width:234px;aspect-ratio:1;
+  display:grid;grid-template-columns:repeat(9,1fr);grid-template-rows:repeat(9,1fr);
+  pointer-events:none;
+}
+html:not(.js) .dot-field{
+  background-image:radial-gradient(circle,var(--sky) 2.4px,transparent 2.6px);
+  background-size:26px 26px;opacity:.5;
+}
+.dot{
+  width:5px;height:5px;border-radius:50%;background:var(--sky);place-self:center;
+  opacity:.18;transform:translate(var(--dx,0),var(--dy,0));
+  transition:transform 1.1s var(--ease) var(--delay,0ms),opacity 1.1s ease var(--delay,0ms);
+}
+.dot-field.is-settled .dot{transform:none;opacity:.6}
+.dot.dot-red{width:10px;height:10px;background:var(--red)}
+.dot-field.is-settled .dot.dot-red{opacity:1}
+
+/* ---------- Sections ---------- */
+.section{padding-block:clamp(4rem,10vw,7.5rem);border-top:1px solid var(--line)}
+.section[id]{scroll-margin-top:calc(var(--nav-h) + 8px)}
+.section-grid{display:grid;grid-template-columns:10rem minmax(0,1fr);gap:clamp(1.5rem,4vw,3rem)}
+.section-name{
+  position:sticky;top:calc(var(--nav-h) + 2rem);align-self:start;
+  display:flex;align-items:center;gap:.6rem;padding-top:.6rem;
+  font-family:var(--sans);font-size:1rem;font-weight:600;color:var(--red);line-height:1.3;
+}
+.section-name::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor;flex:none}
+.statement{
+  font-family:var(--serif);font-weight:500;color:var(--ink);
+  font-size:clamp(1.65rem,3.6vw,2.4rem);line-height:1.18;letter-spacing:-.01em;max-width:24ch;
+}
+.prose{margin-top:1.75rem;max-width:64ch}
+.prose p + p{margin-top:1.1rem}
+.prose p{font-size:1.1rem;line-height:1.7}
+
+/* Reveal on scroll */
+.js .reveal{opacity:0;transform:translateY(14px);transition:opacity .35s ease-out,transform .35s var(--ease)}
+.js .reveal.is-visible{opacity:1;transform:none}
+
+/* ---------- Experience timeline ---------- */
+.timeline{list-style:none;margin-top:2.75rem}
+.tl-item{display:grid;grid-template-columns:7.5rem minmax(0,1fr);column-gap:1.75rem}
+.tl-when{padding-top:.35rem;text-align:right;font-size:.95rem;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.tl-body{
+  position:relative;container-type:inline-size;
+  border-left:1.5px solid var(--line-strong);padding:0 0 3.25rem 2rem;
+}
+.tl-item:last-child .tl-body{padding-bottom:0}
+.tl-body::before{
+  content:"";position:absolute;left:-7px;top:.55rem;width:12.5px;height:12.5px;border-radius:50%;
+  background:var(--paper);border:2px solid var(--sky);transition:background-color .2s ease,border-color .2s ease;
+}
+.tl-item:hover .tl-body::before{background:var(--red);border-color:var(--red)}
+.tl-org{font-family:var(--serif);font-size:clamp(1.4rem,2.6vw,1.65rem);font-weight:600}
+.tl-desc{margin-top:.2rem;font-size:.95rem;color:var(--muted)}
+.tl-role{margin-top:.75rem;font-weight:600;color:var(--ink)}
+.tl-points{list-style:none;margin-top:.75rem;max-width:66ch}
+.tl-points li{position:relative;padding-left:1.25rem}
+.tl-points li + li{margin-top:.55rem}
+.tl-points li::before{content:"";position:absolute;left:0;top:.8em;width:.55rem;height:1.5px;background:var(--sky)}
+
+/* Tailor Brands progression */
+.ladder-label{margin-top:1rem;font-size:.95rem;color:var(--muted)}
+.ladder{list-style:none;margin:.75rem 0 1.5rem;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.65rem;align-items:start}
+.step{
+  background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--sky);
+  border-radius:4px 4px 12px 12px;padding:.85rem .95rem 1rem;
+}
+.step:nth-child(1){margin-top:2.6rem}
+.step:nth-child(2){margin-top:1.3rem;border-top-color:var(--ink)}
+.step:nth-child(3){border-top-color:var(--red)}
+.step-years{display:block;font-size:.85rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.step-role{display:block;margin:.2rem 0 .5rem;font-size:1rem;font-weight:600;line-height:1.3;color:var(--ink)}
+.step-note{display:block;font-size:.92rem;line-height:1.5}
+@container (max-width:560px){
+  .ladder{grid-template-columns:1fr;gap:.55rem}
+  .step:nth-child(1){margin-top:0}
+  .step:nth-child(2){margin-top:0;margin-left:1rem}
+  .step:nth-child(3){margin-left:2rem}
+}
+
+/* ---------- Education ---------- */
+.edu-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:clamp(1.5rem,4vw,3rem);margin-top:.35rem}
+.edu{border-top:2px solid var(--ink);padding-top:1.25rem}
+.edu h3{font-family:var(--serif);font-size:clamp(1.3rem,2.4vw,1.5rem);font-weight:600}
+.edu-school{display:block;margin-top:.15rem;font-family:var(--sans);font-size:1rem;font-weight:500;color:var(--muted)}
+.edu-degree{margin-top:.85rem;font-weight:600;color:var(--ink)}
+.edu-meta{color:var(--muted);font-size:.95rem}
+.edu-list{list-style:none;margin-top:1rem}
+.edu-list li{position:relative;padding-left:1.25rem;font-size:1rem}
+.edu-list li + li{margin-top:.4rem}
+.edu-list li::before{content:"";position:absolute;left:0;top:.8em;width:.55rem;height:1.5px;background:var(--sky)}
+
+/* ---------- Skills ---------- */
+.skill-groups{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(1.5rem,3.5vw,2.5rem);margin-top:.35rem}
+.skill-group h3{font-family:var(--serif);font-size:1.5rem;font-weight:600}
+.skill-group > p{margin-top:.15rem;font-size:.95rem;color:var(--muted)}
+.tags{list-style:none;display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1rem}
+.tags li{
+  padding:.4rem .75rem;border:1px solid var(--line-strong);border-radius:6px;background:var(--surface);
+  font-size:.95rem;line-height:1.4;color:var(--ink);
+}
+.langs{margin-top:2.5rem;padding-top:1.25rem;border-top:1px solid var(--line);font-size:1rem}
+.langs strong{margin-right:.6rem}
+
+/* ---------- Beyond work ---------- */
+.section-warm{background:var(--cream);border-top-color:transparent}
+.mosaic{list-style:none;display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);grid-template-areas:"kenya travel" "kenya give" "photo give";gap:1rem;margin-top:2.25rem}
+.tile{background:var(--surface);border:1px solid rgba(0,48,73,.1);border-radius:18px;padding:1.5rem 1.5rem 1.6rem}
+.tile h3{font-family:var(--serif);font-size:1.3rem;font-weight:600}
+.tile p{margin-top:.5rem;font-size:1rem;line-height:1.6}
+.tile-kenya{
+  position:relative;overflow:hidden;grid-area:kenya;min-height:15rem;
+  display:flex;flex-direction:column;justify-content:flex-end;
+  background:var(--ink);border-color:var(--ink);color:#E9EFF3;
+}
+.tile-kenya::before{
+  content:"";position:absolute;top:1.25rem;right:1.25rem;width:92px;height:92px;
+  background-image:radial-gradient(circle,rgba(102,155,188,.75) 2px,transparent 2.3px);background-size:18.4px 18.4px;
+}
+.tile-kenya::after{content:"";position:absolute;top:calc(1.25rem + 78px);right:calc(1.25rem + 4px);width:9px;height:9px;border-radius:50%;background:var(--red)}
+.tile-kenya .tile-big{margin:0;white-space:nowrap;font-family:var(--serif);font-size:clamp(2.8rem,6vw,3.75rem);line-height:1;font-weight:600;color:#fff}
+.tile-kenya h3{margin-top:.5rem;color:#fff;font-size:1.25rem}
+.tile-travel{grid-area:travel}
+.tile-photo{grid-area:photo}
+.tile-give{grid-area:give}
+
+/* ---------- Contact ---------- */
+.contact-list{list-style:none;margin-top:2.25rem;border-top:1px solid var(--line)}
+.contact-list li{
+  display:grid;grid-template-columns:7rem minmax(0,1fr) auto;align-items:center;gap:.5rem 1.25rem;
+  padding:.6rem 0;border-bottom:1px solid var(--line);
+}
+.contact-label{font-size:.95rem;color:var(--muted)}
+.contact-link{
+  font-family:var(--serif);font-size:clamp(1.2rem,3.2vw,1.65rem);line-height:1.3;color:var(--ink);
+  text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:.22em;text-decoration-color:var(--sky);
+  display:inline-block;padding-block:.65rem;justify-self:start;
+  overflow-wrap:anywhere;transition:color .2s ease,text-decoration-color .2s ease;
+}
+.contact-link:hover{color:var(--red);text-decoration-color:var(--red)}
+.copy-btn{
+  min-height:44px;padding:.5rem 1.1rem;border-radius:999px;border:1.5px solid var(--line-strong);
+  background:transparent;color:var(--ink);font:inherit;font-size:.92rem;font-weight:600;cursor:pointer;
+  transition:border-color .2s ease,background-color .2s ease;
+}
+.copy-btn:hover{border-color:var(--ink);background:var(--surface)}
+
+.site-footer{padding:2rem 0 2.5rem;border-top:1px solid var(--line);font-size:.92rem;color:var(--muted)}
+.footer-inner{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:.75rem}
+.site-footer a{display:inline-flex;align-items:center;min-height:44px;color:var(--ink);text-underline-offset:.25em}
+.site-footer a:hover{color:var(--red)}
+
+/* ---------- Responsive ---------- */
+@media (max-width:900px){
+  .section-grid{grid-template-columns:1fr;gap:.9rem}
+  .section-name{position:static;padding-top:0}
+}
+@media (max-width:760px){
+  .hero-grid{grid-template-columns:1fr;gap:2.25rem}
+  .hero-visual{order:-1;justify-self:start;max-width:190px;margin-top:0}
+  .portrait{border-radius:12px 64px 12px 12px}
+  .dot-field{left:calc(100% + 14px);bottom:auto;top:30px;width:clamp(90px,calc(100vw - 262px),140px)}
+  .hero-role{font-size:1.05rem}
+  .edu-grid,.skill-groups{grid-template-columns:1fr}
+  .mosaic{grid-template-columns:1fr;grid-template-areas:"kenya" "travel" "photo" "give"}
+  .tile-kenya{min-height:12.5rem}
+}
+@media (max-width:640px){
+  .tl-item{grid-template-columns:1fr}
+  .tl-when{text-align:left;padding:0 0 .35rem 1.5rem;border-left:1.5px solid var(--line-strong);position:relative}
+  .tl-when::before{
+    content:"";position:absolute;left:-7px;top:.3rem;width:12.5px;height:12.5px;border-radius:50%;
+    background:var(--paper);border:2px solid var(--sky);
+  }
+  .tl-body{padding-left:1.5rem}
+  .tl-body::before{display:none}
+  .contact-list li{grid-template-columns:minmax(0,1fr) auto}
+  .contact-label{grid-column:1/-1}
+}
+@media (max-width:480px){
+  .actions{display:grid;grid-template-columns:1fr 1fr}
+  .actions .btn-primary{grid-column:1/-1}
+  .actions .btn-plain{border:1.5px solid transparent}
+}
+
+@media (prefers-reduced-motion:reduce){
+  .js .reveal{opacity:1;transform:none;transition:none}
+  .dot{transition:none}
+  *{transition-duration:.01ms!important}
+}
+</style>
+</head>
+
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="#top"><span class="brand-dot" aria-hidden="true"></span>Bar Herz</a>
+    <nav aria-label="Primary">
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span class="menu-icon" aria-hidden="true"><span></span><span></span></span>
+        <span class="menu-label">Menu</span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#beyond">Beyond work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+
+  <!-- Hero -->
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <h1 id="hero-title">Bar Herz</h1>
+        <p class="hero-role">MBA Candidate at Cornell Johnson<span class="sr-only">, </span> <span class="hero-focus">Strategy, operations &amp; technology</span></p>
+        <p class="hero-lede">I turn ambiguous problems into structure and get teams moving, most recently as Head of Business Operations at an AI infrastructure marketplace.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#experience">View experience</a>
+          <a class="btn btn-secondary" href="https://www.linkedin.com/in/bar-herz-26a537153" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr-only"> (opens in a new tab)</span></a>
+          <a class="btn btn-plain" href="#contact">Contact me</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="dot-field" aria-hidden="true"></div>
+        <figure class="portrait">
+          <div class="portrait-fallback" aria-hidden="true">BH</div>
+          <img src="profile.jpeg" alt="Portrait of Bar Herz in a grey suit and tie" width="1089" height="1280" fetchpriority="high" decoding="async" onerror="this.hidden=true">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about" aria-labelledby="about-title">
+    <div class="wrap section-grid">
+      <h2 class="section-name" id="about-title">About</h2>
+      <div class="reveal">
+        <p class="statement">I like problems that don&rsquo;t come with instructions.</p>
+        <div class="prose">
+          <p>I grew up partly in Kenya, where I lived for 14 years, and <mark>adapting to very different environments</mark> has been a theme ever since: the Israeli military, a peace-and-innovation NGO, a Series C tech company, and most recently an AI infrastructure marketplace, where I was Head of Business Operations.</p>
+          <p>Across all of them, the work I enjoy most is the same: <mark>walking into something ambiguous</mark>, figuring out what is really going on, and <mark>bringing people together</mark> to move it forward. I&rsquo;m most at home where people, process, product and data meet.</p>
+          <p>Now at Cornell Johnson, I&rsquo;m deepening the strategy side of that toolkit and looking for roles in consulting, strategy, operations and technology where the questions are big and the answers aren&rsquo;t obvious yet.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section" id="experience" aria-labelledby="experience-title">
+    <div class="wrap section-grid">
+      <h2 class="section-name" id="experience-title">Experience</h2>
+      <div>
+        <p class="statement reveal">Different settings, same instinct: find the structure, then build it with the team.</p>
+
+        <ol class="timeline">
+          <li class="tl-item reveal">
+            <p class="tl-when">2025&ndash;2026</p>
+            <article class="tl-body">
+              <h3 class="tl-org">Global Scale</h3>
+              <p class="tl-desc">AI infrastructure marketplace for data center and GPU capacity</p>
+              <p class="tl-role">Head of Business Operations</p>
+              <ul class="tl-points">
+                <li>Built the company&rsquo;s first AI-enabled intake, validation and reporting workflows, turning fragmented data from <strong>80+ qualified vendors</strong> into a single market-capacity view that sped up client matching.</li>
+                <li>Increased vendor screening <strong>24&times;</strong> by evaluating <strong>2,000 leads</strong>, and shaped market reports and recommendations that supported <strong class="nowrap">multi-million-dollar</strong> infrastructure deals.</li>
+              </ul>
+            </article>
+          </li>
+
+          <li class="tl-item reveal">
+            <p class="tl-when">2022&ndash;2025</p>
+            <article class="tl-body">
+              <h3 class="tl-org">Tailor Brands</h3>
+              <p class="tl-desc">Series C business-building platform with millions of users worldwide</p>
+              <p class="ladder-label">From specialist to team lead, across three roles:</p>
+              <ol class="ladder">
+                <li class="step">
+                  <span class="step-years">2022&ndash;2023</span>
+                  <span class="step-role">CX Product Specialist / Customer Success Manager</span>
+                  <span class="step-note"><strong>100%</strong> on-time delivery of quarterly CX and Product initiatives while supporting 3+ major releases</span>
+                </li>
+                <li class="step">
+                  <span class="step-years">2023&ndash;2025</span>
+                  <span class="step-role">Customer Experience Team Lead</span>
+                  <span class="step-note">Managed a <strong>20-person</strong> team and led an outsourced team in Mexico; resolution time from 12 to 8 hours, NPS up <strong>40%</strong></span>
+                </li>
+                <li class="step">
+                  <span class="step-years">2025</span>
+                  <span class="step-role">CX Product Operations Team Lead</span>
+                  <span class="step-note">Led an <strong>11-person</strong> hybrid team serving <strong>100K+</strong> customers; efficiency up <strong>32%</strong></span>
+                </li>
+              </ol>
+              <ul class="tl-points">
+                <li>Cut product-related resolution times <strong>28%</strong> and improved SLA compliance by automating workflows and putting scalable solutions in place.</li>
+                <li>Reduced adoption friction <strong>40%</strong> by analyzing customer data, finding recurring journey issues, and driving fixes with Product, Engineering and Strategy.</li>
+              </ul>
+            </article>
+          </li>
+
+          <li class="tl-item reveal">
+            <p class="tl-when">2019&ndash;2022</p>
+            <article class="tl-body">
+              <h3 class="tl-org">The Peres Center for Peace and Innovation</h3>
+              <p class="tl-desc">NGO advancing peace through innovation</p>
+              <p class="tl-role">Project and Team Lead</p>
+              <ul class="tl-points">
+                <li>Led and trained a <strong>10-person multicultural team</strong>, improving retention <strong>50%</strong> and tour satisfaction <strong>20%</strong> across 20+ innovation and peace initiatives for global audiences.</li>
+                <li>Took a virtual-tour project from concept to launch with a software partner, digitizing the experience to expand access worldwide and improving it through post-launch testing.</li>
+              </ul>
+            </article>
+          </li>
+
+          <li class="tl-item reveal">
+            <p class="tl-when">2012&ndash;2016</p>
+            <article class="tl-body">
+              <h3 class="tl-org">Israel Defense Forces</h3>
+              <p class="tl-role">Artillery Officer, Deputy Company Commander</p>
+              <ul class="tl-points">
+                <li>Led and trained <strong>85 soldiers</strong> during high-pressure operations.</li>
+                <li>Developed <strong>10+ training methods</strong> that were later adopted across the unit.</li>
+              </ul>
+            </article>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="section" id="education" aria-labelledby="education-title">
+    <div class="wrap section-grid">
+      <h2 class="section-name" id="education-title">Education</h2>
+      <div class="edu-grid reveal">
+        <article class="edu">
+          <h3>Cornell University <span class="edu-school">SC Johnson College of Business</span></h3>
+          <p class="edu-degree">Master of Business Administration, Class of 2028</p>
+          <p class="edu-meta">Ithaca, NY</p>
+          <ul class="edu-list">
+            <li>Merit Scholarship recipient</li>
+            <li>Strategy &amp; Consulting (Spring 2027); STEM eligible</li>
+            <li>Johnson Consulting Club, Tech Strategy Club, Association of Veterans</li>
+          </ul>
+        </article>
+        <article class="edu">
+          <h3>Kibbutzim College of Education, Technology and the Arts</h3>
+          <p class="edu-degree">Bachelor of Education in Social Enterprises &amp; Education, 2022</p>
+          <p class="edu-meta">Tel Aviv, Israel</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section" id="skills" aria-labelledby="skills-title">
+    <div class="wrap section-grid">
+      <h2 class="section-name" id="skills-title">Skills</h2>
+      <div class="reveal">
+        <div class="skill-groups">
+          <div class="skill-group">
+            <h3>Think</h3>
+            <p>Making sense of the problem</p>
+            <ul class="tags">
+              <li>Strategy</li>
+              <li>Problem solving</li>
+              <li>Data analysis</li>
+              <li>Market analysis</li>
+              <li>Customer insights</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Build</h3>
+            <p>Turning it into systems</p>
+            <ul class="tags">
+              <li>Business operations</li>
+              <li>Product operations</li>
+              <li>Process improvement</li>
+              <li>AI-enabled workflows</li>
+              <li>Project management</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Lead</h3>
+            <p>Bringing people with it</p>
+            <ul class="tags">
+              <li>Team leadership</li>
+              <li>Cross-functional leadership</li>
+              <li>Stakeholder management</li>
+              <li>Training &amp; coaching</li>
+              <li>Customer experience</li>
+            </ul>
+          </div>
+        </div>
+        <p class="langs"><strong>Languages</strong> Hebrew (native), Spanish (intermediate)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Beyond work -->
+  <section class="section section-warm" id="beyond" aria-labelledby="beyond-title">
+    <div class="wrap section-grid">
+      <h2 class="section-name" id="beyond-title">Beyond work</h2>
+      <div>
+        <p class="statement reveal">What keeps me curious outside of work.</p>
+        <ul class="mosaic reveal">
+          <li class="tile tile-kenya">
+            <p class="tile-big">14 years</p>
+            <h3>Growing up in Kenya</h3>
+          </li>
+          <li class="tile tile-travel">
+            <h3>35+ countries, six continents</h3>
+            <p>Including eight months backpacking through South America while learning Spanish, and kayaking in Antarctica.</p>
+          </li>
+          <li class="tile tile-photo">
+            <h3>Photography</h3>
+            <p>Certificate from the Galitz School.</p>
+          </li>
+          <li class="tile tile-give">
+            <h3>Giving back</h3>
+            <p>Raised and trained a guide dog for the visually impaired, organized a donation of 250 laptops to NGOs during COVID-19, and advised a community mediation center on its business model and strategy.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact" aria-labelledby="contact-title">
+    <div class="wrap section-grid">
+      <h2 class="section-name" id="contact-title">Contact</h2>
+      <div class="reveal">
+        <p class="statement">Got an ambiguous problem? I&rsquo;d like to hear about it.</p>
+        <div class="prose">
+          <p>I&rsquo;m exploring opportunities in consulting, strategy, business operations and technology. Email or LinkedIn is the fastest way to reach me.</p>
+        </div>
+        <ul class="contact-list">
+          <li>
+            <span class="contact-label">Email</span>
+            <a class="contact-link" href="mailto:bh653@cornell.edu">bh653@cornell.edu</a>
+            <button class="copy-btn" type="button" data-copy="bh653@cornell.edu" hidden>Copy email</button>
+          </li>
+          <li>
+            <span class="contact-label">LinkedIn</span>
+            <a class="contact-link" href="https://www.linkedin.com/in/bar-herz-26a537153" target="_blank" rel="noopener noreferrer">linkedin.com/in/bar-herz-26a537153<span class="sr-only"> (opens in a new tab)</span></a>
+          </li>
+        </ul>
+        <p class="sr-only" id="copy-status" role="status" aria-live="polite"></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>&copy; 2026 Bar Herz</p>
+    <a href="#top">Back to top</a>
+  </div>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* Header border once the page scrolls */
+  var header = document.querySelector('.site-header');
+  function onScroll() { header.classList.toggle('is-scrolled', window.scrollY > 8); }
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  /* Mobile menu */
+  var menuBtn = document.querySelector('.menu-btn');
+  var menu = document.getElementById('nav-links');
+  var menuLabel = menuBtn.querySelector('.menu-label');
+  function setMenu(open) {
+    menuBtn.setAttribute('aria-expanded', String(open));
+    menuLabel.textContent = open ? 'Close' : 'Menu';
+    menu.classList.toggle('is-open', open);
+  }
+  menuBtn.addEventListener('click', function () {
+    setMenu(menuBtn.getAttribute('aria-expanded') !== 'true');
+  });
+  menu.addEventListener('click', function (e) {
+    if (e.target.closest('a')) setMenu(false);
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && menuBtn.getAttribute('aria-expanded') === 'true') {
+      setMenu(false);
+      menuBtn.focus();
+    }
+  });
+  document.addEventListener('click', function (e) {
+    if (menuBtn.getAttribute('aria-expanded') === 'true' && !header.contains(e.target)) setMenu(false);
+  });
+  var desktop = window.matchMedia('(min-width: 861px)');
+  var onDesktop = function (m) { if (m.matches) setMenu(false); };
+  if (desktop.addEventListener) desktop.addEventListener('change', onDesktop);
+  else if (desktop.addListener) desktop.addListener(onDesktop);
+
+  /* Hero: scattered points settle into a grid */
+  var field = document.querySelector('.dot-field');
+  if (field) {
+    var COLS = 9, ROWS = 9, RED = 7 * COLS + 7;
+    var frag = document.createDocumentFragment();
+    for (var i = 0; i < COLS * ROWS; i++) {
+      var dot = document.createElement('span');
+      dot.className = i === RED ? 'dot dot-red' : 'dot';
+      if (!reduceMotion) {
+        dot.style.setProperty('--dx', ((Math.random() - 0.5) * 130).toFixed(1) + 'px');
+        dot.style.setProperty('--dy', ((Math.random() - 0.5) * 130).toFixed(1) + 'px');
+        dot.style.setProperty('--delay', (i === RED ? 650 : Math.round(Math.random() * 400)) + 'ms');
+      }
+      frag.appendChild(dot);
+    }
+    field.appendChild(frag);
+    if (reduceMotion) {
+      field.classList.add('is-settled');
+    } else {
+      requestAnimationFrame(function () {
+        requestAnimationFrame(function () { field.classList.add('is-settled'); });
+      });
+    }
+  }
+
+  /* Reveal sections as they enter the viewport */
+  var revealEls = Array.prototype.slice.call(document.querySelectorAll('.reveal'));
+  if (reduceMotion || !('IntersectionObserver' in window)) {
+    revealEls.forEach(function (el) { el.classList.add('is-visible'); });
+  } else {
+    var revealer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          revealer.unobserve(entry.target);
+        }
+      });
+    }, { rootMargin: '0px 0px -6% 0px', threshold: 0.06 });
+    revealEls.forEach(function (el) { revealer.observe(el); });
+  }
+
+  /* Highlight the nav link for the section in view */
+  var navLinks = Array.prototype.slice.call(document.querySelectorAll('.nav-links a[href^="#"]'));
+  if ('IntersectionObserver' in window) {
+    var byId = {};
+    navLinks.forEach(function (a) { byId[a.getAttribute('href').slice(1)] = a; });
+    var clearCurrent = function () { navLinks.forEach(function (a) { a.removeAttribute('aria-current'); }); };
+    var spy = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        clearCurrent();
+        var link = byId[entry.target.id];
+        if (link) link.setAttribute('aria-current', 'location');
+      });
+    }, { rootMargin: '-45% 0px -50% 0px' });
+    ['top'].concat(Object.keys(byId)).forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el) spy.observe(el);
+    });
+  }
+
+  /* Copy email */
+  var copyBtn = document.querySelector('.copy-btn');
+  var copyStatus = document.getElementById('copy-status');
+  if (copyBtn && navigator.clipboard && window.isSecureContext) {
+    copyBtn.hidden = false;
+    var resetTimer;
+    copyBtn.addEventListener('click', function () {
+      navigator.clipboard.writeText(copyBtn.getAttribute('data-copy')).then(function () {
+        copyBtn.textContent = 'Copied';
+        copyStatus.textContent = 'Email address copied';
+        clearTimeout(resetTimer);
+        resetTimer = setTimeout(function () {
+          copyBtn.textContent = 'Copy email';
+          copyStatus.textContent = '';
+        }, 2000);
+      }, function () {
+        copyStatus.textContent = 'Copy failed. Select the address to copy it.';
+      });
+    });
+  }
+})();
+</script>
+</body>
+</html>
